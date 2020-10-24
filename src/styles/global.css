@@ -5,10 +5,9 @@
 }
 
 body{
-  color: #000;
-  background: #fafafa;
+  background: #ebf2f5;
 }
 
 body, input, button, textarea{
-  font: 600 18px Montserrat, sans-serif;
+  font: 600 18px Roboto, sans-serif;
 }
