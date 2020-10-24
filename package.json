@@ -41,7 +41,11 @@
     ]
   },
   "devDependencies": {
+    "@types/react-leaflet": "^2.5.2",
     "@types/react-router-dom": "^5.1.6",
-    "react-router-dom": "^5.2.0"
+    "@types/styled-components": "^5.1.4",
+    "react-leaflet": "^2.8.0",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.2.0"
   }
 }

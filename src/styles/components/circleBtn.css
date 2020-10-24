@@ -1,0 +1,29 @@
+#dashboard-page-content .navigation-bar .box-button{
+  margin-top: 10px;
+  
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+#dashboard-page-content .navigation-bar button{
+  width: 80px;
+  height: 80px;
+
+  color: rgb(21, 21, 21);
+  font-size: 60px;
+
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+#dashboard-page-content .navigation-bar p{
+  margin: 10px;
+  max-width: 200px;
+  font-size: 14px;
+  text-align: center;
+}

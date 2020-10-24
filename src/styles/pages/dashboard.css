@@ -1,0 +1,7 @@
+#dashboard-page-content{
+  background-color: #2AB795;
+  display: flex;
+  flex-direction: row;
+  
+  z-index: -10;
+}

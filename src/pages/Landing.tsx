@@ -16,7 +16,7 @@ function Landing() {
         <img src="" alt="Ilustration"/>
         <h2>Análise sobre o cancêr infântil</h2>
         <p>Mapa com os dados e informações</p>
-        <Link to='/dashboard' className="enter-button">
+        <Link to='/ds1' className="enter-button">
           Acessar
         </Link>
       </main>
