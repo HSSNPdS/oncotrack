@@ -1,7 +1,16 @@
 #dashboard-page-content{
   background-color: #2AB795;
   display: flex;
-  flex-direction: row;
   
   z-index: -10;
 }
+
+#dashboard-page-content header{
+
+}
+
+#dashboard-page-content header h1{
+  color: #fff;
+}
+
+        

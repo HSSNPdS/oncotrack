@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#grid{
+  display: grid;
+
+  grid-template-areas:
+      'MP AJ'
+      'DT SC';
+
+  height: 100vh;
+}
+
+.map{
+  margin: 0;
+  grid-area: MP;
+}
+
+.help{
+  margin: 0;
+  grid-area: AJ;
+}
+
+.data{
+  grid-area: DT;
+}
+
+.score{
+  grid-area: SC;
+}

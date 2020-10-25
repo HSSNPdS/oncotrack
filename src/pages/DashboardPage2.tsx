@@ -9,6 +9,7 @@ function DashboardPage() {
   return (
     <div id="dashboard-page-content">
       <NavigationBar/>
+  
       <div>
         <header>
           <h1>AAA</h1>
@@ -16,7 +17,7 @@ function DashboardPage() {
         <div id="grid">
           <Iframe 
             className="Map"
-            url="https://datastudio.google.com/embed/reporting/1021bec8-8383-409c-b4aa-62391d99888a/page/1M%22%3E"
+            url="https://datastudio.google.com/embed/reporting/4b6b00d6-4309-4a05-a565-bc4819131a65/page/1M"
             width="550px"
             height="330px"
           />
@@ -26,15 +27,15 @@ function DashboardPage() {
             width="550px"
             height="330px"
           />
-          <Iframe
+          <Iframe 
             className="data"
-            url="https://datastudio.google.com/embed/reporting/b5375651-23ba-4ad8-b888-a0881d359341/page/1M%22%3E"
+            url="https://datastudio.google.com/embed/reporting/7e48ba42-27a1-48e2-ae4d-9f3df31921dc/page/1M"
             width="550px"
             height="390px"
           />
-          <Iframe
+          <Iframe 
             className="score"
-            url="https://datastudio.google.com/embed/reporting/a69e223a-5d84-452f-b357-ad6512e98099/page/1M"
+            url="https://datastudio.google.com/embed/reporting/2d6d9c42-c9e9-4172-8978-edb7416e11cd/page/1M"
             width="550px"
             height="390px"
           />
