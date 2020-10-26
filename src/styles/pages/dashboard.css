@@ -5,11 +5,9 @@
   z-index: -10;
 }
 
-#dashboard-page-content header{
-
-}
-
 #dashboard-page-content header h1{
+  text-align: center;
+  font-weight: 700;
   color: #fff;
 }
 

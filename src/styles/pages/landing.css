@@ -5,16 +5,29 @@
 }
 
 #landing-page-content .page-header{
+  display: flex;
   align-items: center;
   align-content: center;
   justify-content: center;
 }
 
 #landing-page-content .page-header img{
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
 }
 
-#landing-page-content .page-header h1{
+#landing-page-content main aside{
+  float: right;
+  margin-top: 300px;
+  width: 30%;
+}
 
+.enter-button{
+  text-decoration: none;
+  width: 300px;
+  height: 200px;
+
+  padding: 20px;
+
+  background-color: #2AB795;
 }

@@ -15,12 +15,10 @@
 }
 
 .map{
-  margin: 0;
   grid-area: MP;
 }
 
 .help{
-  margin: 0;
   grid-area: AJ;
 }
 

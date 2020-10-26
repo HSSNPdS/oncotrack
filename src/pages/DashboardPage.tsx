@@ -11,7 +11,7 @@ function DashboardPage() {
       <NavigationBar/>
       <div>
         <header>
-          <h1>AAA</h1>
+          <h1>Dashboard: Oncologia Infantil</h1>
         </header>
         <div id="grid">
           <Iframe 

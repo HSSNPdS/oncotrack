@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 import Logo from '../images/logo.png';
+import Ilustration from '../images/young_boy_medic.jpg';
 
 import '../styles/pages/landing.css'
 
@@ -10,15 +11,22 @@ function Landing() {
     <div id="landing-page-content">
       <header className="page-header">
         <img src={Logo} alt="Logo"/>
-        <h1>Instituto de Estudos Oncológicos</h1>
+        <h1>Mudando a Oncologia</h1>
       </header>
-      <main>
-        <img src="" alt="Ilustration"/>
-        <h2>Análise sobre o cancêr infântil</h2>
-        <p>Mapa com os dados e informações</p>
-        <Link to='/ds1' className="enter-button">
-          Acessar
-        </Link>
+      <main 
+        style={{
+          backgroundImage: 'url('+Ilustration+')',
+          backgroundSize: "cover",
+          width: '100vw',
+          height: '100vh',
+        }}
+      >
+        <aside>
+          <Link to='/ds1' className="enter-button">
+            Consultar os dados
+          </Link>
+        </aside>
+        
       </main>
     </div>
   );
